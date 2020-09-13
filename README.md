@@ -46,3 +46,7 @@ The bandwidth of a laser scanner is 0.312 times the scan velocity (in meters per
 # Gain
 
 Total transimpedance gain (as configured, you can adjust it) is 1500 ohms.  There is an additional factor of 2 gain in the OPA842 stage, but this merely compensates for the attenuation caused by the 50 Ohm output impedance.  In addition, the PZC attenautes by a factor of R6/R5 (about 8:1).  Thus peak ampltidue per photon at +5Vbr should be about 4.5mV.  
+
+# Mounting
+
+The entire board is 1 inch across and will mount in an SM1 lens tube:  https://www.thorlabs.com/newgrouppage9.cfm?objectgroup_id=3307
