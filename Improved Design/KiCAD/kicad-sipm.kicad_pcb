@@ -697,6 +697,11 @@
       (net 1 "GND") (pinfunction "Pin_2") (tstamp 9c755e53-bd1a-40da-88bb-4e667b2ec76d))
     (pad "1" smd rect (at 0 0 90) (size 0.7112 1.778) (layers "F.Cu" "F.Paste" "F.Mask")
       (net 9 "/HV") (pinfunction "Pin_1") (tstamp 6edffdf4-0cbb-40de-acee-04422c9c8382))
+    (model "${KIPRJMOD}/step/DF13C-5P-1.25V.stp"
+      (offset (xyz 2.45 -3.6 -23))
+      (scale (xyz 1 1 1))
+      (rotate (xyz 90 180 -90))
+    )
   )
 
   (module "footprints:S14420" (layer "B.Cu") (tedit 5DBC8D70) (tstamp 6af4232b-83fd-4a8b-a477-71caccb1018e)
