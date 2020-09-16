@@ -37,6 +37,9 @@ Both the old and improved designs are a 1500 V/A transimpedance amplifier paired
 
 The values of L1, R5 and R6 define the PZC cut on and amplitude.  These values were near optimal for a previous board iteration, however, the PZC is very sensitive to the exact values so you may find that to hit very high bandwidth (40-50 MHz) or very flat pass band that the values must be adjusted.  Essentially the PZC is adding a gain that compensates for the frequency roll off caused by the RC time constant associated with the individual SIPM cell recharge through the quenching resistors, so adjusting L1 changes at what frequency the added gain kicks in, while changing the values of the resistors lets you change the strength of that gain.  By setting the values carefully, you can cancel out the recharge time of the individual APDs and greatly extend the bandwidth of the detector, often by a factor of 10 or more.  
 
+A more intuitive explination of the PZC method is described in this article:
+A. Gola, C. Piemonte, and A. Tarolli, "Analog circuit for timing measurements with large area sipms coupled to lyso crystals," IEEE Trans. Nucl. Sci. 60, 1296–1302 (2013).
+
 # Low pass filter
 
 It is important to add an external low pass filter, either in your ADC or inline with it to reject out of band noise.  If you do not have a suitable lowpass on your ADC, the minicircuits BLP-25 is a reasonable choice with relatively little group delay in the pass band:  https://www.minicircuits.com/WebStore/dashboard.html?model=BLP-25%2B
