@@ -1,3 +1,7 @@
+**This page is obsolete.  A greatly improved design is available here: https://github.com/OpenSiPM/sipm-bias-control**
+
+The updated design has higher dynamic range, lower noise, higher bandwidth and includes the bias generation, power supplies and low pass filter.  
+
 # Introduction
 
 These are the design files for the SIPM amplifier described in M. G. Giacomelli, "Evaluation of silicon photomultipliers for multiphoton and laser scanning microscopy," J. Biomed. Opt. 24, 1 (2019) available from https://www.spiedigitallibrary.org/journals/journal-of-biomedical-optics/volume-24/issue-10/106503/Evaluation-of-silicon-photomultipliers-for-multiphoton-and-laser-scanning-microscopy/10.1117/1.JBO.24.10.106503.full?SSO=1.  
